@@ -58,11 +58,11 @@ const Hero = () => {
                 </motion.p>
                 <motion.a 
                 variants={childVariants}
-                href="src\public\resume.pdf"
-                target="_blank"
-                rel="noopener noreferrer" 
+                href="/resume.pdf"
+                download="Razaak-Resume.pdf"
+                // rel="noopener noreferrer" 
                 className="bg-white rounded-full p-4 text-sm
-                text-stone-800 mb-10"> Download Resume</motion.a>
+                text-stone-800 mb-10"> Download Resume </motion.a>
       
               </motion.div>
             </div>
